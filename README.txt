@@ -23,17 +23,7 @@ The dataset used consists of banking transaction data from LOL Bank Pvt. Ltd., c
 -Is_Fraud: Target label (1 if fraud, 0 if not)
 
 3.About DataSet
-The dataset used consists of banking transaction data from LOL Bank Pvt. Ltd., containing important information related to transactions, customer details, merchants, and the devices used. Some of the main columns in this dataset include:
--Customer_ID: Unique identifier for the customer
--Transaction_ID: Unique identifier for the transaction
--Transaction_Date & Transaction_Time: Timestamp when the transaction occurred
--Transaction_Amount: The amount of money involved in the transaction
--Transaction_Type: Type of transaction (Withdrawal, Deposit, Transfer)
--Merchant_ID & Merchant_Category: Information about the merchant
--Transaction_Device & Device_Type: Device used to perform the transaction
--Transaction_Location: Geographical location of the transaction
--Is_Fraud: Target label (1 if fraud, 0 if not)
-
+The dataset used consists of banking transaction data from LOL Bank Pvt. Ltd., containing important information related to transactions, customer details, merchants, and the devices used.
 This dataset is a binary classification task, where the model’s job is to predict the value of the Is_Fraud column based on the other features.
 
 4. Pre-Processing
